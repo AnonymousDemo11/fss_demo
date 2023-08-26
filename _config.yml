@@ -1,16 +1,21 @@
-title: Custom Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
+title: Controllable Waveform-Domain Diffusion Model for Event-Guided Foley Sound Synthesis
+description: 2024 ICASSP Submission
 show_downloads: true
 remote_theme: tuur29/pages-themes-cayman
+darkmode: false
 color:
-  header: "#000"
-  gradient_left: "#e53935"
-  gradient_right: "#f57c00"
-logo_url: https://github.githubassets.com/images/icons/emoji/octocat.png
+  gradient_left: "#135FD2"
+  gradient_right: "#5FAAFA"
+  header: "#fff"
+  android_theme: "#fff" # this default to gradient_color
+  link: "#5FAAFA" # this default to gradient_color
+  section_title: "#135FD2" # this default to gradient_color
 syntax_theme: https://stylishthemes.github.io/Syntax-Themes/pygments/css-github/pygments-monokai.css
 buttons:
-  zip_url: https://github.com/tuur29/pages-themes-cayman
-  zip_title: View Documentation
-  zip_hide: false
+  zip_url: https://library_will-uploaded
+  zip_title: Paper Link
+  zip_hide: true
   tar_hide: true
   github_hide: true
+gems:
+- jekyll-seo-tag
